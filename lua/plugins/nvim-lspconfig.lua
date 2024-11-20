@@ -94,6 +94,18 @@ return {
         end,
       })
 
+      -- local project_library_path = "C:/Users/Clement/AppData/Roaming/npm/@angular/language-server/"
+      -- local cmd = { "ngserver", "--stdio", "--tsProbeLocations", project_library_path, "--ngProbeLocations",
+      --   project_library_path }
+
+
+      -- lspconfig.angularls.setup {
+      --   cmd = cmd,
+      --   on_new_config = function(new_config, new_root_dir)
+      --     new_config.cmd = cmd
+      --   end,
+      -- }
+
       -- Optional: Customize diagnostic display settings
       vim.diagnostic.config({
         virtual_text = true,
